@@ -1,10 +1,6 @@
 import React, { Component } from "react";
-
+import Intro from "./components/Intro/Index";
 import "./App.css";
-
-const Intro = props => (
-  <p className="App-intro">Our first functional component</p>
-);
 
 class App extends Component {
   render() {
@@ -13,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">TV Series List</h1>
         </header>
-        <Intro />
+        <Intro message="Here you can find all of your most-loved TV series" />
       </div>
     );
   }
