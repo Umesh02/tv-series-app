@@ -28,8 +28,10 @@
   font-size: large;
 }
 
-.App-link {
-  color: #61dafb;
+
+.series-length {
+  color: #9b09f0;
+  font-size: 1.5em;
 }
 
 @keyframes App-logo-spin {
