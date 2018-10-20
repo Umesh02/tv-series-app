@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import SeriesList from "../../components/SeriesList";
-import Loader from "../../components/Loader";
-import Intro from "../../components/Intro";
+import SeriesList from "../../components/SeriesList/SeriesList";
+import Loader from "../../components/Loader/Loader";
+import Intro from "../../components/Intro/Intro";
 
 class Series extends Component {
   state = {

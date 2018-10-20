@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./SeriesList.css";
 import { Link } from "react-router-dom";
 
 const SeriesListItem = ({ series }) => (
